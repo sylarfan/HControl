@@ -1,0 +1,24 @@
+﻿<UserControl
+    x:Class="HalconControl.HSmartWindowControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:HalconControl"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Name="HWindowControlWPF"
+    Margin="0"
+    AllowDrop="True"
+    MouseDoubleClick="HWPFWindow_MouseDoubleClick"
+    MouseDown="HWPFWindow_MouseDown"
+    MouseLeave="HWPFWindow_MouseLeave"
+    MouseMove="HWPFWindow_MouseMove"
+    MouseUp="HWPFWindow_MouseUp"
+    MouseWheel="HWPFWindow_MouseWheel"
+    SnapsToDevicePixels="True"
+    mc:Ignorable="d">
+    <Viewbox
+        Name="WindowFrame"
+        AllowDrop="True"
+        MouseLeave="HWPFWindow_MouseLeave"
+        Stretch="None" />
+</UserControl>
